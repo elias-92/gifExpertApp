@@ -6,7 +6,7 @@ export const GifExpertApp = () => {
 	const [categories, setCategories] = useState(['One punch']);
 	return (
 		<>
-			<h2>Gif expert</h2>
+			<h2 className="title">Búsqueda de gifs animados</h2>
 			<AddCategory setCategories={setCategories} />
 			<hr />
 
